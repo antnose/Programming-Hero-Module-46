@@ -5,10 +5,13 @@ import "./Grandpa.css";
 
 const Grandpa = () => {
   return (
-    <div className="grandpa flex">
-      <Dad />
-      <Uncle />
-      <Aunty />
+    <div className="grandpa text-center  ">
+      <h2 className="text-4xl font-bold text-center m-7 ">Grandpa</h2>
+      <section className="flex justify-between ">
+        <Dad />
+        <Uncle />
+        <Aunty />
+      </section>
     </div>
   );
 };
